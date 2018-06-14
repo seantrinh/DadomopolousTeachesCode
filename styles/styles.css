@@ -1,0 +1,90 @@
+html { height: 100%; }
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+
+h2 {
+  padding-left: 20px;
+  background-color:#f44336;
+  color: white;
+}
+
+h3 {
+  padding-left: 20px;
+  background-color:white;
+  color: #f44336;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  position: relative;
+  background-color: #9e9e9e;
+  font-size:16px;
+}
+
+#large-div { height: 100%; weight: 100%;}
+
+/* Height / width / positioning can be customized for your use case.
+  For demo purposes, we make firepad fill the entire browser. */
+#firepad-container {
+  width: 75%;
+  height: 50%;
+  float: left;
+  padding-top:2%;
+}
+
+#video-chat {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: #f44336;
+}
+
+#print_out{
+  background-color:white;
+  width: 75%;
+  float: right;
+  overflow-y: auto;
+  height: 40%;
+}
+
+#output {
+	padding-left: 20px;
+}
+
+#fileToLoad {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.videoContainer {
+  padding-left: 5%;
+}
+
+#video-buttons {
+	padding-left: 5%;
+}
+
+span {
+  padding-left: 10px;
+}
+
+video {
+  height: 95%;
+  width: 95%;
+}
+
+@media screen and (max-width: 1045px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: 12px;
+  }
+}
